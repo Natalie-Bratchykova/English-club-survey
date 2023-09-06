@@ -25,6 +25,14 @@
     font-size: 8px;
     height: 100vh;
   }
+  h1 {
+    font-size: 2em;
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+  form {
+    margin-top: 15%;
+  }
   textarea {
     max-width: 30em;
   }
@@ -37,12 +45,16 @@
   h1 {
     font-size: 2em;
     margin-top: 10%;
+    margin-bottom: 5%;
   }
+
   #description {
     font-size: 1em;
   }
+
   form {
     max-width: 30em;
+    margin-top: 15%;
   }
   legend,
   #dropdown-label {
@@ -55,5 +67,6 @@
   textarea {
     width: 25em;
     height: 10em;
+    padding: 3%;
   }
 }
