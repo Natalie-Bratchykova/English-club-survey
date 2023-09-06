@@ -7,11 +7,11 @@
   background-color: transparent;
   outline: none;
   border: 1px solid #ffff;
-  border-radius: 0.3rem;
+  border-radius: 0.3em;
   padding: 2% 5%;
   width: 100%;
 
-  font-size: 1.2rem;
+  font-size: 1.2em;
   color: #fff;
 }
 
@@ -31,7 +31,7 @@
 .input_box input:focus ~ label,
 .input_box input:valid ~ label {
   opacity: 1;
-  font-size: 0.9rem;
+  font-size: 0.9em;
   transform: translateY(-50%);
   background: #372d49f3;
   padding: 0 0.3%;

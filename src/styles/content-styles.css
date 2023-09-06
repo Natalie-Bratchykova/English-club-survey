@@ -1,0 +1,117 @@
+
+
+/* html {
+  font-size: 18px;
+} */
+body {
+  color: #fff;
+  /* font-size: 18px; */
+  height: 150vh;
+  background: url(https://s0.rbk.ru/v6_top_pics/media/img/4/95/346845579406954.jpg)
+      no-repeat,
+    linear-gradient(to bottom, #f8035deb 15%, #371170cb 85%) no-repeat;
+  background-size: cover;
+  background-blend-mode: luminosity;
+}
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: Tahoma;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 1% 0 0;
+}
+#description {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  -webkit-text-stroke: 1px #56505eeb;
+  text-stroke: 1px #56505eeb;
+  color: white;
+  font-weight: 900;
+  letter-spacing: 0.2em;
+}
+form {
+  border: 1px solid #372d49f3;
+  border-radius: 1em;
+  max-width: 43.75em;
+  margin: 0 auto;
+  background-color: #372d49f3;
+  padding: 2% 1%;
+}
+fieldset {
+  border: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 1% 0;
+}
+
+legend,
+#dropdown-label {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 0 0 1% 0;
+}
+#dropdown-label {
+  margin-top: 3%;
+}
+
+select,
+option {
+  border-radius: 1em;
+  background: transparent;
+  color: white;
+  padding: 1% 2%;
+  font-size: 1.2em;
+  outline: none;
+}
+select::-ms-expand {
+  color: #f83079fd;
+  border-radius: 1em;
+}
+
+option {
+  background-color: #372d49f3;
+  border-radius: 1em;
+}
+option:hover {
+  accent-color: #372d49f3;
+}
+
+textarea {
+  border-radius: 1em;
+  resize: none;
+  width: 100%;
+  max-width: 37.5em;
+  font-size: 1.1em;
+  font-weight: 600;
+  padding: 0.5% 1%;
+  outline: none;
+  color: #372d49f3;
+  background: #ffffff66;
+}
+textarea:focus {
+  border: 1px solid #f83079fd;
+}
+
+input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  background-color: transparent;
+  border: 1px solid #ededee;
+  border-radius: 0.4em;
+  color: white;
+  font-size: 1.2em;
+  padding: 1% 2%;
+  transition: all 0.1s linear;
+}
+input[type="submit"]:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}

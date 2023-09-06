@@ -15,7 +15,45 @@
   }
 }
 @media (max-width: 575px) {
-    body {
-      font-size: 8px;
-    }
+  body {
+    font-size: 8px;
   }
+}
+
+@media (max-width: 490px) {
+  body {
+    font-size: 8px;
+    height: 100vh;
+  }
+  textarea {
+    max-width: 30em;
+  }
+}
+@media (max-width: 400px) {
+  body {
+    font-size: 8px;
+    height: 100vh;
+  }
+  h1 {
+    font-size: 2em;
+    margin-top: 10%;
+  }
+  #description {
+    font-size: 1em;
+  }
+  form {
+    max-width: 30em;
+  }
+  legend,
+  #dropdown-label {
+    font-size: 1em;
+  }
+  select,
+  option {
+    font-size: 1em;
+  }
+  textarea {
+    width: 25em;
+    height: 10em;
+  }
+}
