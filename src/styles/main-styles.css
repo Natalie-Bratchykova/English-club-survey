@@ -10,7 +10,7 @@
 body {
   color: #fff;
   /* font-size: 18px; */
-  height: 100vh;
+  height: 150vh;
   background: url(https://s0.rbk.ru/v6_top_pics/media/img/4/95/346845579406954.jpg)
       no-repeat,
     linear-gradient(to bottom, #f8035deb 15%, #371170cb 85%) no-repeat;
@@ -27,7 +27,7 @@ h1 {
   font-family: Tahoma;
   text-transform: uppercase;
   text-align: center;
-  margin: 0;
+  margin: 1% 0 0;
 }
 #description {
   text-align: center;
