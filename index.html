@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="src/styles/main-styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">Survey form</h1>
+      <p id="description">Choose the appropriate english speaking group</p>
+      <form action="" id="survey-form">
+        <fieldset>
+          <div class="input_group input_box">
+            <input type="text" id="name" name="name" required />
+            <label for="name" id="name-label">Name</label>
+          </div>
+          <div class="input_group input_box">
+            <input type="email" id="email" name="email" required />
+            <label for="email" id="email-label">Email</label>
+          </div>
+          <div class="input_group input_box">
+            <input
+              type="number"
+              id="age"
+              name="age"
+              required
+              min="18"
+              max="70"
+            />
+            <label for="age" id="age-label">Age</label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Self estimation of your language skills:</legend>
+          <div class="input_group radio-box">
+            <label for="a1"
+              ><input type="radio" name="estimate-level" id="a1" value="a1" />
+              <span>A1</span></label
+            >
+            <label for="a2"
+              ><input type="radio" name="estimate-level" id="a2" value="a2" />
+              <span>A2</span></label
+            >
+            <label for="b1"
+              ><input type="radio" name="estimate-level" id="b1" value="b1" />
+              <span>B1</span></label
+            >
+            <label for="b2"
+              ><input type="radio" name="estimate-level" id="b2" value="b2" />
+              <span>B2</span></label
+            >
+            <label for="c1"
+              ><input type="radio" name="estimate-level" id="c1" value="c1" />
+              <span>C1</span></label
+            >
+            <label for="c2"
+              ><input type="radio" name="estimate-level" id="c2" value="c2" />
+              <span>C2</span></label
+            >
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Choose what describe your the best:</legend>
+          <div class="input_group traits">
+            <div class="checkbox-group">
+              <input type="checkbox" name="best-description" id="team-player" />
+              <label for="team-player">love to practice in group</label>
+            </div>
+            <div class="checkbox-group">
+              <input type="checkbox" name="best-description" id="solo-player" />
+              <label for="solo-player">love individual lessons</label>
+            </div>
+            <div class="checkbox-group">
+              <input
+                type="checkbox"
+                name="best-description"
+                id="grammar-vocabulary"
+              />
+              <label for="grammar-vocabulary"
+                >Need help with grammar and vocabulary</label
+              >
+            </div>
+            <div class="checkbox-group">
+              <input type="checkbox" name="best-description" id="listening" />
+              <label for="listening">Need help with listening skills</label>
+            </div>
+          </div>
+          <label for="dropdown" id="dropdown-label"
+            >When was your last practice?</label
+          >
+          <select name="last-practice" id="dropdown">
+            <option value="1">more than year ago</option>
+            <option value="2">a year ago</option>
+            <option value="3">more than a half of year</option>
+            <option value="4">less than a half of year</option>
+            <option value="5">a month ago</option>
+            <option value="6">some weeks ago</option>
+            <option value="7">a week ago</option>
+            <option value="8">some days ago</option>
+            <option value="9">one day ago</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>What are your expectations from our courses:</legend>
+          <textarea
+            name="expectations"
+            id="expectations"
+            cols="60"
+            rows="10"
+          ></textarea>
+        </fieldset>
+        <input type="submit" value="Submit" id="submit" />
+      </form>
+    </div>
+  </body>
+</html>

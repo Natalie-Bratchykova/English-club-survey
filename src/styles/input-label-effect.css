@@ -1,0 +1,42 @@
+.input_box {
+  width: 200px;
+  position: relative;
+  margin: 2% 0;
+}
+.input_box input {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #ffff;
+  border-radius: 0.3rem;
+  padding: 2% 5%;
+  width: 100%;
+
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.input_box input:focus {
+  border-color: #f83079fd;
+  color: #f83079fd;
+}
+
+.input_box label {
+  position: absolute;
+  left: 40%;
+  top: 1%;
+  opacity: 0.4;
+  transition: all 0.2s;
+}
+
+.input_box input:focus ~ label,
+.input_box input:valid ~ label {
+  opacity: 1;
+  font-size: 0.9rem;
+  transform: translateY(-50%);
+  background: #372d49f3;
+  padding: 0 0.3%;
+  left: 38%;
+}
+.input_box input:focus ~ label {
+  color: #f83079fd;
+}
