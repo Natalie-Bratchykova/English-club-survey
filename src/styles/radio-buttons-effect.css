@@ -55,9 +55,10 @@ input[type="radio"]:checked {
     height: 0.75em;
     margin-top: 3%;
     margin-right: 5%;
-
-    /* margin: 0.1em 0 0 0.1em; */
-
-    transition: scale 0.1s linear;
   }
+}
+  @media (max-width: 490px) {
+    .radio-box label span{
+      font-size: 1em;
+    }
 }
